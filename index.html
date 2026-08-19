@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Marangirangi Store</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f4f7fb;
+      color: #111;
+    }
+
+    header {
+      background: #050505;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px solid #006eff;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 30px;
+    }
+
+    header p {
+      color: #60aaff;
+      margin-top: 6px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #005bea, #000);
+      color: white;
+      text-align: center;
+      padding: 55px 20px;
+    }
+
+    .hero h2 {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .container {
+      width: 92%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #005bea;
+      font-size: 27px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+      border-top: 4px solid #006eff;
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #005bea;
+    }
+
+    .card p {
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      background: #006eff;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0047a8;
+      transform: scale(1.04);
+    }
+
+    .whatsapp {
+      background: #111;
+    }
+
+    .whatsapp:hover {
+      background: #222;
+    }
+
+    .betting {
+      background: #005bea;
+      color: white;
+    }
+
+    .betting h3,
+    .betting p {
+      color: white;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #050505;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    footer p {
+      margin: 8px 0;
+    }
+
+    footer a {
+      color: #55aaff;
+      text-decoration: none;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>MARANGIRANGI STORE</h1>
+    <p>Your eFootball Squad Portal</p>
+  </header>
+
+  <section class="hero">
+    <h2>eFootball Squad Portal</h2>
+
+    <p>
+      Welcome to Marangirangi Store.
+      Explore our eFootball-related products and services,
+      get information about available squads, and contact us
+      directly through WhatsApp.
+    </p>
+
+    <a
+      class="btn whatsapp"
+      href="https://wa.me/255765631073"
+      target="_blank">
+      💬 WhatsApp Chat
+    </a>
+  </section>
+
+  <main class="container">
+
+    <h2 class="section-title">Our Services</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>⚽ eFootball Squads</h3>
+
+        <p>
+          Check our eFootball squad-related products
+          and get more information by contacting
+          Marangirangi Store.
+        </p>
+
+        <a
+          class="btn"
+          href="https://wa.me/255765631073"
+          target="_blank">
+          Contact Us
+        </a>
+      </div>
+
+
+      <div class="card">
+        <h3>🎮 eFootball Products</h3>
+
+        <p>
+          We provide information about our available
+          eFootball products and services.
+          Contact us for current details.
+        </p>
+
+        <a
+          class="btn"
+          href="https://wa.me/255765631073"
+          target="_blank">
+          Ask on WhatsApp
+        </a>
+      </div>
+
+
+      <div class="card betting">
+        <h3>📊 Betting Hints</h3>
+
+        <p>
+          Follow our WhatsApp Channel for betting hints,
+          updates and new information.
+        </p>
+
+        <a
+          class="btn"
+          href="https://whatsapp.com/channel/0029Vb8T3X1KwqSWPxTzEW3l"
+          target="_blank">
+          Open Betting Hints
+        </a>
+      </div>
+
+    </div>
+
+
+    <section class="contact">
+
+      <h2 class="section-title">Contact Marangirangi Store</h2>
+
+      <div class="cards">
+
+        <div class="card">
+          <h3>📱 Phone / WhatsApp</h3>
+
+          <p>+255 765 631 073</p>
+
+          <a
+            class="btn whatsapp"
+            href="https://wa.me/255765631073"
+            target="_blank">
+            Chat on WhatsApp
+          </a>
+        </div>
+
+
+        <div class="card">
+          <h3>📧 Email</h3>
+
+          <p>mj9913452@gmail.com</p>
+
+          <a
+            class="btn"
+            href="mailto:mj9913452@gmail.com">
+            Send Email
+          </a>
+        </div>
+
+
+        <div class="card">
+          <h3>📢 WhatsApp Channel</h3>
+
+          <p>
+            Join our channel for updates,
+            betting hints and announcements.
+          </p>
+
+          <a
+            class="btn"
+            href="https://whatsapp.com/channel/0029Vb8T3X1KwqSWPxTzEW3l"
+            target="_blank">
+            Join Channel
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <h3>MARANGIRANGI STORE</h3>
+
+    <p>eFootball Squad Portal</p>
+
+    <p>
+      Email:
+      <a href="mailto:mj9913452@gmail.com">
+        mj9913452@gmail.com
+      </a>
+    </p>
+
+    <p>
+      WhatsApp:
+      <a href="https://wa.me/255765631073" target="_blank">
+        +255 765 631 073
+      </a>
+    </p>
+
+    <p>© 2026 Marangirangi Store. All rights reserved.</p>
+
+  </footer>
+
+</body>
+</html>
